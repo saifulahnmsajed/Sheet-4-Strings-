@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s;
+    getline(cin, s);
+    //Find position '/'
+    int position = s.find('\\');
+    //Print
+    cout<<s.substr(0, position)<<endl;
+    return 0;
+}
