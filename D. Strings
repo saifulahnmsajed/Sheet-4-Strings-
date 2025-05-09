@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string A, B;
+    cin>>A>>B;   //Input
+    cout<<A.size()<<" "<<B.size()<<endl;   //size than print
+    cout<<A+B<<endl; // addition
+    int temp = A[0];
+    A[0] = B[0];
+    B[0] = temp;
+    cout<<A<<" "<<B<<endl;   //swap and print
+
+    return 0;
+}
