@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string x, y;
+    //Input
+    cin>>x>>y;
+    //condition than Print
+    if(x>y)
+    {
+        cout<<y<<endl;
+    }else if(x<y)
+    {
+        cout <<x<<endl;
+    }else                          //mane x==y jekono akta print dila hobe' tai ami x print dilam
+    {
+        cout<<x<<endl;
+    }
+
+    return 0;
+}
